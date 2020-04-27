@@ -1,0 +1,465 @@
+body{
+    width:100%;
+    margin:0;
+}
+
+#nav{
+    color:white;
+    width:100%;
+    text-align:center;
+    background-color:#990000;
+    position:sticky;
+    top:-2px;
+    margin-top:-2px;
+}
+
+h1{
+    background-color:#660000;
+    color:white;
+    text-align:center;
+    font-size:32px;
+}
+
+a{
+    text-decoration: none;
+}
+
+address{
+    font-style: normal;
+}
+
+@media only screen and (min-width: 1320px){
+    h1{
+        padding:16px 0 0 20px;
+        margin:0px 0 -20px 0;
+        height:64px;
+    }
+    nav ol{
+        display:grid;
+        grid-template-columns: repeat(10,auto);
+        grid-template-rows: 50px;
+        padding:0;
+        align-items: center;
+        justify-content:center;
+        list-style-type: none;
+        width:100vw;
+        border-left: 1px solid #cc0000;
+    }
+
+    nav{
+        height:51px;
+    }
+    nav ol li{
+        height:38px;
+        padding:12px 20px 0 20px;
+        border-right: 1px solid #cc0000;
+        background-color:#990000;
+        color:white;
+    }
+    .redone{
+        border-left: 1px solid #cc0000;
+    }
+    #navPhone{
+        display:none;
+    }
+    main{
+        height:2160px;
+    }
+    .displayimg{
+        width:180px;
+        height:auto;
+        margin:24px 0 24px 0;
+    }
+    .hypeArticle{
+        width:300px;
+        height: 340px;
+        text-align:center;
+        padding:48px;
+        background-color:#eee;
+        border-radius:32px;
+    }
+    .hypeDisplay{
+        display:grid;
+        grid-template-columns: 420px 420px;
+        justify-content:center;
+        grid-gap:16px;
+        margin:32px 0px 32px 16px;
+    }
+    h5{
+        font-size:24px;
+        padding:0;
+        margin:0;
+    }
+    #sidebar{
+        height:100%;
+        width:21%;
+        float:right;
+        background-color:#ffeeee;
+        padding:2%;
+    }
+    #sidebar a:hover{
+        text-decoration: underline;
+        cursor:pointer;
+    }
+    #sidebar td{
+        padding:4px 20px 0 0 ;
+    }
+    #leftMain{
+        float:left;
+        width:71%;
+        padding:2%;
+    }
+    h4{
+        font-size:18px;
+    }
+    .headSide{
+        font-size:18px;
+        font-weight:bold;
+    }
+    #sidebar article{
+        margin:32px 0;
+    }
+    #leftMain p{
+        font-size:18px;
+    }
+    .alignCenter{
+        text-align:center;
+    }
+    .info{
+        line-height:32px;
+        letter-spacing: .5px;
+        margin-top:32px;
+    }
+    footer{
+        height:240px;
+        width:100%;
+        clear:both;
+        background-color:#eee;
+    }
+    footer ol{
+        width:24%;
+        float:left;
+        padding:0;
+        text-align:center;
+    }
+    footer li{
+        list-style-type: none;
+        padding:0;
+        line-height:48px;
+        font-size:16px;
+        color:black;
+    }
+    footer li:hover{
+        cursor:pointer;
+        text-decoration: underline;
+    }
+    #infoMove{
+        display:none;
+    }
+
+}
+
+@media only screen and (max-width: 1320px) and (min-width:720px){
+    h1{
+        padding:16px 0 0 0;
+        margin:0px 0 -20px 0;
+        height:64px;
+    }
+    
+    nav ol{
+            display:grid;
+            grid-template-columns: repeat(5,auto);
+            grid-template-rows: 50px 50px;
+            padding:0;
+            align-items: center;
+            justify-content:center;
+            list-style-type: none;
+            width:100%;
+    }
+    nav{
+            height:101px;
+    }
+    nav ol li{
+        height:38px;
+        padding:12px 20px 0 20px;
+        border-right: 1px solid #cc0000;
+        background-color:#990000;
+        color:white;
+    }
+    .bottomnav{
+        border-top: 1px solid #cc0000;
+    }
+    .redone{
+        border-left: 1px solid #cc0000;
+    }
+    .redtwo{
+        border-left: 1px solid #cc0000;
+    }
+    .hypeDisplay{
+        display:grid;
+        grid-template-columns: 250px 250px;
+        grid-gap:4%;
+        justify-content:center;
+    }
+    .hypeArticle h5{
+        font-size:19px;
+    }
+    .displayimg{
+        width:120px;
+        margin:32px 0 16px 0;
+    }
+    .hypeArticle{
+        width:220px;
+        background-color:#eee;
+        border-radius:24px;
+        text-align:center;
+        padding:16px;
+    }
+    #navPhone{
+        display:none;
+    }
+    main{
+        width:100%;
+        height:2420px;
+    }
+    #leftMain{
+        float:left;
+        width:76%;
+        padding:2%;
+    }
+    
+    h5{
+        font-size:24px;
+        padding:0;
+        margin:0;
+    }
+    #sidebar{
+        height:100%;
+        width:21%;
+        float:right;
+        background-color:#ffeeee;
+        padding:2%;
+    }
+    #sidebar a:hover{
+        text-decoration: underline;
+        cursor:pointer;
+    }
+    #sidebar td{
+        padding:8px 12px 0 0;
+        vertical-align:top;
+    }
+    #leftMain{
+        float:left;
+        width:71%;
+        padding:2%;
+    }
+    h4{
+        font-size:18px;
+    }
+    .headSide{
+        font-size:18px;
+        font-weight:bold;
+    }
+    #sidebar article{
+        margin:32px 0;
+    }
+    .alignCenter{
+        text-align:center;
+    }
+    .info{
+        font-size:18px;
+        line-height:24px;
+        letter-spacing: .25px;
+    }
+    footer{
+        height:300px;
+        width:100%;
+        clear:both;
+        background-color:#eee;
+        padding:64px 0 0 0;
+    }
+    footer ol{
+        width:50%;
+        float:left;
+        padding:0;
+        text-align:center;
+        margin-top:-16px;
+    }
+    footer li{
+        list-style-type: none;
+        padding:0;
+        line-height:48px;
+        font-size:16px;
+        color:black;
+    }
+    footer li:hover{
+        cursor:pointer;
+        text-decoration: underline;
+    }
+    #infoMove{
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 720px) and (min-width:0px){
+        #nav{
+            top:-2px;
+            position:sticky;
+            position: -webkit-sticky;
+            display: block
+        }
+    
+        h1{
+            padding:12px 0 0 0;
+            margin:0px 0 0px 0;
+            font-size:18px;
+            height:40px;
+        }
+        nav ol{
+                display:none;
+                grid-template-columns: 100%;
+                grid-template-rows: repeat(10,38px);
+                padding:0;
+                align-items: center;
+                justify-content:center;
+                list-style-type: none;
+                width:100vw;
+                margin-top:-32px;
+            }
+
+        nav ol li{
+            height:32px;
+            padding:6px 0 0 0;
+            border-right: none;
+            border-left: none;
+            border-top: 1px solid #cc0000;
+            background-color:#990000;
+            color:white;
+        }
+        #navPhone{
+            background-color:#990000;
+            width:100%;
+            height:48px;
+        }
+        #navPhone h3{
+            float:left;
+            width:200px;
+            margin:12px 0 0 10px;
+            font-size:14px;
+        }
+        #navphone img{
+            float:right;
+            width:48px;
+            margin:0px 8px 0px 0px;
+        }
+        #leftMain p{
+            font-size:18px;
+        }
+        #sidebar{
+            position:fixed;
+            width:100%;
+            bottom:-300px;
+            transition: bottom .25s ease-out;
+        }
+        .phoneViewport{
+            height:300px;
+            overflow:scroll;
+            width:100%;
+            background-color:#ffcccc;
+            margin-top:80;
+        }
+        .phoneSidebar{
+            width:100%;
+            text-align:center;
+            font-size:18px;
+        }
+        #sidebarButton{
+            width:32px;
+            margin:8px 2px 0px 8px;
+        }
+        #infoMove{
+            background-color:#ffcccc;
+            padding:8px;
+            margin:16px 0 -8px 0;
+            -webkit-box-shadow: -1px -2px 16px 0px rgba(0,0,0,0.33);
+            -moz-box-shadow: -1px -2px 16px 0px rgba(0,0,0,0.33);
+            box-shadow: -1px -2px 16px 0px rgba(0,0,0,0.33);
+            border-radius:12px 0 0 0;
+            position:absolute;
+            z-index:-1;
+            right:0;
+            top:1;
+            cursor:pointer;
+        }
+        .infoMoveText{
+            float:left;
+        }
+        table{
+            margin:auto;
+        }
+        #leftMain{
+            width:90%;
+            padding:0 5%;
+        }
+        .hypeDisplay{
+            text-align:center;
+        }
+        .hypeDisplay h5{
+            font-size:24px;
+        }
+        .displayimg{
+            width:50%;
+        }
+        .hypeArticle{
+            margin:32px 0 80px 0;
+        }
+        .info{
+            line-height:28px;
+        }
+        .alignCenter{
+            text-align:center;
+            font-size:20px;
+        }
+        footer{
+            width:100%;
+            height:660px;
+            background-color:#eee;
+            padding-top:32px;
+            margin-top:32px;
+        }
+        footer ol{
+            width:100%;
+            color:black;
+            display:block;
+            padding:0;
+            margin-top:-22px;
+            list-style-type: none;
+            text-align:center;
+            font-size:20px;
+        }
+        footer ol li{
+            padding:16px 0;
+            color:black;
+        }
+        footer ol li:hover, footer ol li:focus, footer ol li:active{
+            text-decoration: underline;
+        }
+}
+
+
+nav ol li{
+    background-color:#990000;
+}
+
+nav ol li:hover,nav ol li:focus,nav ol li:active{
+    background-color:#cc0000;
+    cursor:pointer;
+}
+
+#hamburger{
+    cursor:pointer;
+}
+
+@media print{
+
+}
